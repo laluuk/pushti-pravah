@@ -2,40 +2,61 @@
   "kirtans": [
     {
       "id": "k1",
-      "title": { "hindi": "व्रज की शोभा", "gujarati": "વ્રજ ની શોભા", "english": "Vraj Ki Shobha" },
-      "poet": "Surdas ji",
+      "title": {
+        "hindi": "व्रज की शोभा",
+        "gujarati": "વ્રજ ની શોભા",
+        "english": "Beauty of Vraj"
+      },
+      "poet": "Surdas",
       "samay": ["Mangala", "Shringar"],
-      "preview": "नमामि यमुनामहं सकल सिद्धि हेतुं मुदा |",
+      "preview": "व्रज की शोभा निरखत मन हरषे |",
       "youtubeId": "dQw4w9WgXcQ"
     },
     {
       "id": "k2",
-      "title": { "hindi": "मधुराष्टकम", "gujarati": "મધુરાષ્ટકમ", "english": "Madhurashtakam" },
-      "poet": "Vallabhacharya ji",
+      "title": {
+        "hindi": "मधुराष्टकम्",
+        "gujarati": "મધુરાષ્ટકમ્",
+        "english": "Madhurastakam"
+      },
+      "poet": "Vallabhacharya",
       "samay": "Any Time",
       "preview": "अधरं मधुरं वदनं मधुरं नयनं मधुरं हसितं मधुरम् |",
       "youtubeId": "dQw4w9WgXcQ"
     },
     {
       "id": "k3",
-      "title": { "hindi": "यमुनाजी के पद", "gujarati": "યમુનાજી ના પદ", "english": "Yamunaji Ke Pad" },
-      "poet": "Kumbhandas ji",
-      "samay": "Mangala",
-      "preview": "यमुना तीर विहारी, जय जय श्री यमुना महारानी |"
+      "title": {
+        "hindi": "यमुनाष्टकम्",
+        "gujarati": "યમુનાષ્ટકમ્",
+        "english": "Yamunastakam"
+      },
+      "poet": "Vallabhacharya",
+      "samay": ["Mangala", "Shringar"],
+      "preview": "नमामि यमुनामहं सकलसिद्धिहेतुं मुदा |",
+      "youtubeId": "dQw4w9WgXcQ"
     },
     {
       "id": "k4",
-      "title": { "hindi": "प्रात: समय", "gujarati": "પ્રાત: સમય", "english": "Pratah Samay" },
-      "poet": "Parmananddas ji",
+      "title": {
+        "hindi": "प्रातः स्मरण",
+        "gujarati": "પ્રાતઃ સ્મરણ",
+        "english": "Morning Prayer"
+      },
+      "poet": "Parmananddas",
       "samay": "Mangala",
-      "preview": "जागो गोपाल ललन मेरे, प्रात: भयो है |"
+      "preview": "जागो गोपाल लाल मेरे, प्रातः भयो है |"
     },
     {
       "id": "k5",
-      "title": { "hindi": "श्री गोवर्धन", "gujarati": "શ્રી ગોવર્ધન", "english": "Shree Goverdhan" },
-      "poet": "Krishnadas ji",
+      "title": {
+        "hindi": "श्री गोवर्धन धरण",
+        "gujarati": "શ્રી ગોવર્ધન ધરણ",
+        "english": "Govardhan Dharan"
+      },
+      "poet": "Krishnadas",
       "samay": "Gval",
-      "preview": "वन्दत गिरिवर धर किशोर |"
+      "preview": "वंदत गिरिवर धर किशोर |"
     }
   ]
 }
