@@ -1,0 +1,29 @@
+{
+  "appConfig": {
+    "name": "Pushti Pravah",
+    "spotlight": {
+      "title": "The Divine Shringar",
+      "subtitle": "Experience the intricate beauty of the Lord's daily adornment.",
+      "buttonText": "Explore Shringar",
+      "image": "images/icons/logo-512.png"
+    },
+    "_comment": "start and end are minutes from midnight (e.g., 330 = 5:30 AM)",
+    "samaySchedule": [
+      { "name": "Mangala", "time": "05:30 AM", "icon": "images/icons/samay/mangala.svg" },
+      { "name": "Shringar", "time": "07:30 AM", "icon": "images/icons/samay/shringar.svg" },
+      { "name": "Gwal", "time": "09:30 AM", "icon": "images/icons/samay/gwal.svg" },
+      { "name": "Rajbhog", "time": "11:30 AM", "icon": "images/icons/samay/rajbhog.svg" },
+      { "name": "Utthapan", "time": "04:30 PM", "icon": "images/icons/samay/utthapan.svg" },
+      { "name": "Bhog", "time": "05:30 PM", "icon": "images/icons/samay/bhog.svg" },
+      { "name": "Sandhya Aarti", "time": "06:30 PM", "icon": "images/icons/samay/aarti.svg" },
+      { "name": "Shayan", "time": "07:30 PM", "icon": "images/icons/samay/shayan.svg" },
+      { "name": "Any Time", "time": "N/A", "icon": "images/icons/samay/time.svg" }
+    ],
+    "storyCategories": [
+      { "id": "84 Vaishnav ki Varta", "name": "84 Vaishnavs", "count": 84, "icon": "history_edu", "desc": "The primary disciples of Shri Vallabhacharyaji." },
+      { "id": "252 Vaishnav ki Varta", "name": "252 Vaishnavs", "count": 252, "icon": "auto_leelas", "desc": "The disciples of Shri Vitthalnathji (Gusainji)." },
+      { "id": "Utsav Varta", "name": "Utsav Varta", "count": 12, "icon": "festival", "desc": "Significance of various festivals and celebrations." },
+      { "id": "Swaroop Lila", "name": "Swaroop Lila", "count": 24, "icon": "temple_hindu", "desc": "Divine appearances and leelas of the Lord." }
+    ]
+  }
+}

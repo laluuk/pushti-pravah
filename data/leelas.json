@@ -1,0 +1,36 @@
+{
+  "leelas": [
+    {
+      "id": "s1",
+      "title": { "hindi": "दामोदरदास हरसानी", "gujarati": "દામોદરદાસ હરસાણી", "english": "Damodardas Harsani" },
+      "category": "84 Vaishnav ki Varta",
+      "village": "Harsan",
+      "excerpt": "The embodiment of total surrender and the first to recognize the divine nature of Shri Mahaprabhuji.",
+      "image": "images/leelas/s1.svg"
+    },
+    {
+      "id": "s2",
+      "title": { "hindi": "कृष्णदास अधिकारी", "gujarati": "કૃષ્ણદાસ અધિકારી", "english": "Krishnadas Adhikari" },
+      "category": "84 Vaishnav ki Varta",
+      "village": "Govardhan",
+      "excerpt": "The dedicated administrator of Shrinathji's temple who saw service in every task.",
+      "image": "images/leelas/s2.svg"
+    },
+    {
+      "id": "s3",
+      "title": { "hindi": "सूरदास जी", "gujarati": "સૂરદાસ જી", "english": "Surdas ji" },
+      "category": "84 Vaishnav ki Varta",
+      "village": "Gaughat",
+      "excerpt": "The blind poet who was blessed with internal vision of the Lord's divine leelas.",
+      "image": "images/leelas/s3.svg"
+    },
+    {
+      "id": "s4",
+      "title": { "hindi": "छीत स्वामी", "gujarati": "છીत સ્વામી", "english": "Chhit Swami" },
+      "category": "252 Vaishnav ki Varta",
+      "village": "Mathura",
+      "excerpt": "A mischievous priest transformed into a celebrated poet of the Ashta Chhap.",
+      "image": "images/leelas/s4.svg"
+    }
+  ]
+}
