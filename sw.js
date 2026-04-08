@@ -1,70 +1,95 @@
-const CACHE_NAME = 'nitya-darshan-v3';
+const CACHE_NAME = 'pushti-pravah-v6';
 
-const ASSETS = [
+const CORE_ASSETS = [
   '/',
   '/index.html',
   '/style.css',
   '/app.js',
   '/manifest.json',
+
+  // Icons
   '/images/icons/logo-192.png',
-  '/images/icons/logo-512.png'
+  '/images/icons/logo-512.png',
+
+  // Samay icons (add any others you have)
+  '/images/icons/samay/mangala.png',
+  '/images/icons/samay/shringar.png',
+  '/images/icons/samay/gval.png',
+  '/images/icons/samay/rajbhog.png',
+  '/images/icons/samay/uthapan.png',
+  '/images/icons/samay/bhog.png',
+  '/images/icons/samay/sandhya.png',
+  '/images/icons/samay/shayan.png'
 ];
 
-// Install
+// Helper
+async function safeFetchJSON(url) {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(res.statusText);
+    return await res.json();
+  } catch (e) {
+    console.warn('Failed to fetch', url, e);
+    return null;
+  }
+}
+
 self.addEventListener('install', (event) => {
   self.skipWaiting();
+
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS);
-    })
+    (async () => {
+      const cache = await caches.open(CACHE_NAME);
+
+      // 1. Cache core assets
+      await cache.addAll(CORE_ASSETS);
+
+      // 2. Load index files
+      const kirtanIndex = await safeFetchJSON('/data/kirtans.json');
+      const leelaIndex = await safeFetchJSON('/data/leelas.json');
+
+      // 3. Build dynamic lists
+      const kirtanFiles = kirtanIndex
+        ? kirtanIndex.kirtans.map(k => `/data/kirtans/${k.id}.json`)
+        : [];
+
+      const leelaFiles = leelaIndex
+        ? leelaIndex.leelas.map(l => `/data/leelas/${l.id}.json`)
+        : [];
+
+      // 4. Cache all content JSON files
+      const allContent = [...kirtanFiles, ...leelaFiles];
+
+      await cache.addAll(allContent);
+    })()
   );
 });
 
-// Activate
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     Promise.all([
       self.clients.claim(),
-      caches.keys().then((keys) =>
+      caches.keys().then(keys =>
         Promise.all(
-          keys.map((key) => {
-            if (key !== CACHE_NAME) {
-              return caches.delete(key);
-            }
-          })
+          keys.map(key => key !== CACHE_NAME && caches.delete(key))
         )
       )
     ])
   );
 });
 
-// Fetch
+// Cache-first strategy
 self.addEventListener('fetch', (event) => {
-  const url = new URL(event.request.url);
-
-  // Network-first for JSON
-  if (url.pathname.endsWith('.json')) {
-    event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          const cloned = response.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, cloned);
-          });
-          return response;
-        })
-        .catch(() => caches.match(event.request))
-    );
-    return;
-  }
-
-  // Cache-first for everything else
   event.respondWith(
-    caches.match(event.request).then((response) => {
-      return (
-        response ||
-        fetch(event.request).catch(() => caches.match('/index.html'))
-      );
+    caches.match(event.request).then((cached) => {
+      if (cached) return cached;
+
+      return fetch(event.request).catch(() => {
+        if (event.request.mode === 'navigate') {
+          return caches.match('/index.html');
+        }
+        return new Response('Offline', { status: 503 });
+      });
     })
   );
 });
