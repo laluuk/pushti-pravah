@@ -365,7 +365,7 @@ class Router {
                 <!-- Personalised Greeting with UK Time -->
                 <section class="mb-8">
                     <span class="nav-label text-secondary letter-spacing-wider">UK TIME ${ukTime}</span>
-                    <h2 class="text-primary font-size-4xl margin-top-xs"><span class="text-secondary-variant">Jai Shree Krushna,</span> ${userName}</h2>
+                    <h2 class="text-primary font-size-3xl margin-top-xs"><span class="text-secondary-variant">Jai Shree Krushna,</span> ${userName}</h2>
                 </section>
 
                 <!-- Next Darshan Card -->
@@ -377,7 +377,7 @@ class Router {
                             </div>
                             <div>
                                 <span class="nav-label samay-hero-label">Next Darshan • ${samay?.time || ''}</span>
-                                <h3 class="samay-title text-white font-size-4xl">${samay?.name || 'Loading...'}</h3>
+                                <h3 class="samay-title text-white font-size-3xl">${samay?.name || 'Loading...'}</h3>
                             </div>
                         </div>
                     </div>
@@ -388,7 +388,7 @@ class Router {
                     <div class="flex items-center justify-between mb-8">
                         <div>
                             <span class="nav-label text-secondary letter-spacing-wider">DIVINE MELODIES</span>
-                            <h3 class="text-primary font-size-4xl margin-top-xs">${samay?.name || 'Daily'} Kirtans</h3>
+                            <h3 class="text-primary font-size-3xl margin-top-xs">${samay?.name || 'Daily'} Kirtans</h3>
                         </div>
                     </div>
                     
@@ -427,7 +427,7 @@ class Router {
                     <div class="flex items-center justify-between mb-8">
                         <div>
                             <span class="nav-label text-secondary letter-spacing-wider">SACRED CHRONICLES</span>
-                            <h3 class="text-primary font-size-4xl margin-top-xs">Daily Leela</h3>
+                            <h3 class="text-primary font-size-3xl margin-top-xs">Daily Leela</h3>
                         </div>
                     </div>
 
@@ -684,7 +684,7 @@ class Router {
                         ${kirtan.verses.map((v, index) => `
                             <div class="verse-block text-center mb-16 relative">
                                 <div class="verse-number-display mb-4">
-                                    <span class="font-serif opacity-20 font-size-4xl">${index + 1}</span>
+                                    <span class="font-serif opacity-20 font-size-3xl">${index + 1}</span>
                                 </div>
                                 <div class="detail-lyrics font-size-2xl mb-4 text-primary font-weight-600">
                                     ${this.dataService.getLocalized(v.lyrics)}
