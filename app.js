@@ -24,9 +24,9 @@ class DataService {
     async init() {
         try {
             const [kRes, sRes, cRes] = await Promise.all([
-                fetch('data/kirtans.json'),
-                fetch('data/leelas.json'),
-                fetch('data/config.json')
+                fetch('/data/kirtans.json'),
+                fetch('/data/leelas.json'),
+                fetch('/data/config.json')
             ]);
 
             const kData = await kRes.json();
@@ -74,14 +74,14 @@ class DataService {
 
     async getKirtanById(id) {
         try {
-            const res = await fetch(`data/kirtans/${id}.json`);
+            const res = await fetch(`/data/kirtans/${id}.json`);
             return await res.json();
         } catch (e) { return null; }
     }
 
     async getStoryById(id) {
         try {
-            const res = await fetch(`data/leelas/${id}.json`);
+            const res = await fetch(`/data/leelas/${id}.json`);
             return await res.json();
         } catch (e) { return null; }
     }
