@@ -1,7 +1,7 @@
 {
   "leelas": [
     {
-      "id": "l1",
+      "id": "damodardas-harsani",
       "title": { "hindi": "दामोदरदास हरसानी", "gujarati": "દામોદરદાસ હરસાણી", "english": "Damodardas Harsani" },
       "category": "84 Vaishnav ki Varta",
       "village": "Harsan",
@@ -9,7 +9,7 @@
       "image": "images/leelas/s1.svg"
     },
     {
-      "id": "l2",
+      "id": "krishnadas-adhikari",
       "title": { "hindi": "कृष्णदास अधिकारी", "gujarati": "કૃષ્ણદાસ અધિકારી", "english": "Krishnadas Adhikari" },
       "category": "84 Vaishnav ki Varta",
       "village": "Govardhan",
@@ -17,7 +17,7 @@
       "image": "images/leelas/s2.svg"
     },
     {
-      "id": "l3",
+      "id": "surdas-ji",
       "title": { "hindi": "सूरदास जी", "gujarati": "સૂરદાસ જી", "english": "Surdas ji" },
       "category": "84 Vaishnav ki Varta",
       "village": "Gaughat",
@@ -25,8 +25,8 @@
       "image": "images/leelas/s3.svg"
     },
     {
-      "id": "l4",
-      "title": { "hindi": "छीत स्वामी", "gujarati": "છીत સ્વામી", "english": "Chhit Swami" },
+      "id": "chhit-swami",
+      "title": { "hindi": "छीत स्वामी", "gujarati": "છીત સ્વામી", "english": "Chhit Swami" },
       "category": "252 Vaishnav ki Varta",
       "village": "Mathura",
       "excerpt": "A mischievous priest transformed into a celebrated poet of the Ashta Chhap.",
