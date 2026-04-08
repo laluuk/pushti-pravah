@@ -1,7 +1,7 @@
 {
   "leelas": [
     {
-      "id": "s1",
+      "id": "l1",
       "title": { "hindi": "दामोदरदास हरसानी", "gujarati": "દામોદરદાસ હરસાણી", "english": "Damodardas Harsani" },
       "category": "84 Vaishnav ki Varta",
       "village": "Harsan",
@@ -9,7 +9,7 @@
       "image": "images/leelas/s1.svg"
     },
     {
-      "id": "s2",
+      "id": "l2",
       "title": { "hindi": "कृष्णदास अधिकारी", "gujarati": "કૃષ્ણદાસ અધિકારી", "english": "Krishnadas Adhikari" },
       "category": "84 Vaishnav ki Varta",
       "village": "Govardhan",
@@ -17,7 +17,7 @@
       "image": "images/leelas/s2.svg"
     },
     {
-      "id": "s3",
+      "id": "l3",
       "title": { "hindi": "सूरदास जी", "gujarati": "સૂરદાસ જી", "english": "Surdas ji" },
       "category": "84 Vaishnav ki Varta",
       "village": "Gaughat",
@@ -25,7 +25,7 @@
       "image": "images/leelas/s3.svg"
     },
     {
-      "id": "s4",
+      "id": "l4",
       "title": { "hindi": "छीत स्वामी", "gujarati": "છીत સ્વામી", "english": "Chhit Swami" },
       "category": "252 Vaishnav ki Varta",
       "village": "Mathura",
