@@ -1,78 +1,186 @@
 {
-  "id": "k3",
-  "title": "Yamunastakam",
-  "raga": "Traditional",
+  "id": "yamunastakam",
+  "title": "Yamunāstakam",
+  "raga": "Rag Kalyan",
   "verses": [
     {
       "lyrics": {
-        "sanskrit": "नमामि यमुनामहं सकलसिद्धिहेतुं मुदा ।\nमुरारिपदपंकजस्फुरदमन्दरेणुत्कटाम् ॥१॥",
-        "english": "Namami Yamunam aham sakala siddhi hetum muda.\nMurari pada pankaja sphurad amanda renutkatam. (1)"
+        "sanskrit": "नमामि यमुनां महाम्, सकलसिद्धिहेतुमुदा ।\nमुरारिपदपंकजं, स्फुरद् मन्दरेणुत्कटम् ॥ १ ॥",
+        "gujarati": "નમામિ યમુનાં મહામ્, સકલસિદ્ધિહેતુમુદા ।\nમુરારીપદપંકઝં, સ્ફુરદ્ મન્દરેણુટ્તકતમ્ ॥ ૧ ॥",
+        "english": "Namami Yamuna Maham, Sakal Siddhi Hetum Muda.\nMurari-pad pankajam, Sphurad mand renutkatam. (1)"
       },
       "translation": {
-        "english": "I bow to Yamuna, the bestower of all spiritual attainments, enriched by the dust of Krishna’s lotus feet."
+        "english": "I bow to great Yamunā, delighted cause of all perfections; the lotus of Murari's feet shines, scattering gentle streams of dust."
       }
     },
     {
       "lyrics": {
-        "sanskrit": "कलिन्दगिरिमस्तके पतदमन्दपूरोज्ज्वलाम् ।\nविलासगमनोल्लसत्प्रकटगण्डशैलोन्नताम् ॥२॥",
-        "english": "Kalinda giri mastake patad amanda purojjvalam.\nVilasa gamanollasat prakat ganda shailonnatam. (2)"
+        "sanskrit": "ततः स तु ह नव्कानन, प्रकटमोदपुष्पम्भुना ।\nसुरासुरसुपूजितं, स्मरपिठुः श्रीयम्बिभ्रतम् ॥ २ ॥",
+        "gujarati": "તતઃ સતુ હ નવકાલનં, પ્રકટમોદપુષ્પમભુના ।\nસુરાસુરસુપૂજિતં, સ્મરપિઠુઃ શ્રીયમ્બિભ્રતમ્ ॥ ૨ ॥",
+        "english": "Tatas tatha nav kanan, prakat mod-pushpa mbhuna.\nSura sura su poojitam, smara pithuh shriyam bibhrateem. (2)"
       },
       "translation": {
-        "english": "Flowing from Mount Kalinda, she shines brilliantly and moves with divine playfulness."
+        "english": "Then in the new grove appeared blooming joyous flowers; praised by gods and demons, it bears auspicious memory and glory."
       }
     },
     {
       "lyrics": {
-        "sanskrit": "सघोषघोषकल्लोलतरंगभंगराजिताम् ।\nद्विषत्सुरासुरेन्द्रभयरक्षणप्रदां शुभाम् ॥३॥",
-        "english": "Sagosha ghosha kallola taranga bhanga rajitam.\nDvisat surasurendra bhaya rakshana pradam shubham. (3)"
+        "sanskrit": "कालिन्दगिरिमस्तके, पतद मन्दपूरोज्ज्वल ।\nविलासगमनोल्लासात्, प्रकटगन्धशैलोन्नत ॥ ३ ॥",
+        "gujarati": "કાલિન્દગિримસ્તકે, પતદ મન્દપૂરોજ્ઝ્વલ ।\nવિલાસગમનોલ્લાસાત્, પ્રકટગંધશૈલોન્તત્ ॥ ૩ ॥",
+        "english": "Kalind giri mastake, patada mand poorojjwala.\nVilas gaman ollasat, prakat gandh shailon nata. (3)"
       },
       "translation": {
-        "english": "Her waves resound beautifully; she protects devotees and removes fear from all beings."
+        "english": "On Kalinda's head and the lotus-borne banks shone gentle splendor; her playful course revealed fragrant hills grown tall."
       }
     },
     {
       "lyrics": {
-        "sanskrit": "तटस्थनवकाननप्रकटमोदपुष्पाम्बुना ।\nसुरासुरसुपूजितस्मितमुखी सदा शुभा ॥४॥",
-        "english": "Tatastha nava kanana prakat moda pushpambuna.\nSurasura supujita smita mukhi sada shubha. (4)"
+        "sanskrit": "सघोषगति दन्तुरा, समाधिरूद्धदोलोत्तम ।\nमुकुंदरति वर्धिनी, जयति पद्मबन्धोः सुताः ॥ ४ ॥",
+        "gujarati": "સઘોષગતિ દંરુરા, સમાધિરુદ્ધદોલોત્તમ ।\nમુકુન્દરતિ વર્ધિની, જયતિ પદ્મબંધોઃ સુતાૐ ॥ ૪ ॥",
+        "english": "Saghosa gati dantura, samadhi rudh dolo ttama.\nMukunda rati vardhinee, jayati padma bandhoh suta. (4)"
       },
       "translation": {
-        "english": "Her banks are adorned with fresh forests and flowers; she is worshipped by all and radiates joy."
+        "english": "With resounding flow and a crest like tusk, lifting waves in ecstatic sway; she increases Mukunda's delight and the praise of the lotus-bind friend prevails."
       }
     },
     {
       "lyrics": {
-        "sanskrit": "जलस्थितनवीनमीनमकरन्दमुग्धेक्षणाम् ।\nव्रजेशतनयप्रियामतुलभाग्यदां शुभाम् ॥५॥",
-        "english": "Jala sthita navina mina makaranda mugdha ikshanam.\nVrajesha tanaya priyam atula bhagya dam shubham. (5)"
+        "sanskrit": "भुवं भुवनपावनं, मधिगतमने कस्वनैः ।\nप्रियभिरिव सेवितम्, शुकमयूरहंससदिभिः ॥ ५ ॥",
+        "gujarati": "ભુવં ભુવનપાવનં, મધીગતમને કસ્વનૈઃ ।\nપ્રિયભિરિવ સેવિતમ્, શુકમયૂરહંસસદિભિઃ ॥ ૫ ॥",
+        "english": "Bhuvam bhuvana pavanam, madhigata mane kaswanaihi.\nPriya bhir iva sevitam, shuka-mayur hamsa sadibhi. (5)"
       },
       "translation": {
-        "english": "Filled with fish and beauty, she is dear to Krishna and grants unmatched fortune."
+        "english": "Purifier of earth and worlds, entering hearts with playful waves; served as if by beloveds, by parrots, peacocks and swans alike."
       }
     },
     {
       "lyrics": {
-        "sanskrit": "मधुराधिपतेः सदा प्रियतमा शुभां भजेत् ।\nभवाब्धितरणे सदा भवति सा सहायिनी ॥६॥",
-        "english": "Madhuradhipateh sada priyatama shubham bhajet.\nBhavabdhi tarane sada bhavati sa sahayini. (6)"
+        "sanskrit": "तरंगभुजकंकणं, प्रकटमुक्तिकावलुकाः ।\nनितम्बतटसुदरीं, नमता कृष्णतुर्यप्रियम् ॥ ६ ॥",
+        "gujarati": "તરંગભુજ કંકણં, પ્રકટમુક્તિકાવલુકાઃ ।\nનિતંબતટસુન્દ્રીમ્, નમતા કૃષ્ણતુર્યપ્રીયમ્ ॥ ૬ ॥",
+        "english": "Tarang-bhuj kankana, prakat muktika valuka.\nNitamba tat sundareem, namata Krsna turyapriyam. (6)"
       },
       "translation": {
-        "english": "Beloved of Krishna, she helps devotees cross the ocean of worldly existence."
+        "english": "Waves as armlets, revealed pearls and sands; fair on the banks of hips, she is saluted as Krishna's much-loved companion."
       }
     },
     {
       "lyrics": {
-        "sanskrit": "भवभयविनाशिनीं सकलसिद्धिदां शुभाम् ।\nश्रितजनसुखप्रदां नमति यः स मुच्यते ॥७॥",
-        "english": "Bhava bhaya vinashinim sakala siddhi dam shubham.\nShrita jana sukha pradam namati yah sa muchyate. (7)"
+        "sanskrit": "अनन्तगुणभूषिते, शिवविरञ्चिदेवस्तुते ।\nघनाघननिभे सदा, ध्रुवपराशरभेष्टदे ॥ ७ ॥",
+        "gujarati": "અનન્તગુણા ભૂષિતે, શિવવિરં ચિદેવેસ્તુતે ।\nઘનાઘનનિભે સદા, ધ્રુવપરાશર ભેષ્ટદે ॥ ૭ ॥",
+        "english": "Anant gun bhushite, Shiva Viranchi devas tute.\nGhana ghana nibhe sada, Dhruva Parashara bheshtade. (7)"
       },
       "translation": {
-        "english": "She destroys worldly fear and grants blessings; those who bow to her are liberated."
+        "english": "Adorned with countless virtues, praised by Shiva, Brahma and gods; dense as cloud she ever is, honored by Dhruva and Parashara."
       }
     },
     {
       "lyrics": {
-        "sanskrit": "इति स्तवमिमं सदा पठति यो नरः श्रद्धया ।\nस याति परमां गतिं हरिपदं लभेत् ध्रुवम् ॥८॥",
-        "english": "Iti stavam imam sada pathati yo narah shraddhaya.\nSa yati paramam gatim hari padam labhet dhruvam. (8)"
+        "sanskrit": "विशुद्धमथुरा तटे, सकलगोपगोपीवृते ।\nकृपाजलधरिसंसृते, मम मनः सुखं भवयत् ॥ ८ ॥",
+        "gujarati": "વિશુદ્ધમથુરા તટે, સકલગોપગોપીવૃતિએ ।\nકૃપાજલધરિસંશ્રિતે, મમ મનઃ સુખં ભવયત્ ॥ ૮ ॥",
+        "english": "Vishuddha Mathura tate, sakal gopa gopi vrute.\nKrupa jaladhi sanshrite, mama manah sukham bhavayat. (8)"
       },
       "translation": {
-        "english": "One who recites this with devotion attains the highest state and reaches Krishna."
+        "english": "Pure on Mathura's shore, surrounded by all gopis and cowherds; filled with compassionate ocean of mercy, may my mind attain bliss."
+      }
+    },
+    {
+      "lyrics": {
+        "sanskrit": "यया चरणपद्मजा, मुरारि पोहोप्रियं नभुकः ।\nसगमन्तो भवन्ति सकलसिद्धिदा सेवताम् ॥ ९ ॥",
+        "gujarati": "યયા ચાલન્મા પદ્મજા, મુરારી પોહો પ્રીયં નભુકઃ ।\nસગમં્તો ભવન્તિ સકલસિદ્ધિદા સેવતામ્ ॥ ૯ ॥",
+        "english": "Yaya charan padmaja, Murari poho priyam nibhukah.\nSagamanto bhavanti sakal siddhida sevtam. (9)"
+      },
+      "translation": {
+        "english": "By whose lotus-born feet the beloved Murari is attended; meeting there, all attainments are served and fulfilled."
+      }
+    },
+    {
+      "lyrics": {
+        "sanskrit": "तया सदृशं तमित्यत् कमलजसपत्नीव यत् ।\nहरिप्रियकालनदया, मांसि मे सदा स्थितयात् ॥ १० ॥",
+        "gujarati": "તયા સદૃશં તમિત્યત્ કમલજસપત્નીવ યત્ ।\nહરીપ્રિયકલિન્દયા, માંસિ മേ સદા સ્થિતયાત્ ॥ ૧૦ ॥",
+        "english": "Taya sadrusham tam ityat, kamalaja sapatneeva yat.\nHari priya Kalindaya, mansi me sada sthiyatat. (10)"
+      },
+      "translation": {
+        "english": "May that like her (you) who is like the lotus-wife, beloved of Hari, Kalindā, always abide in my heart."
+      }
+    },
+    {
+      "lyrics": {
+        "sanskrit": "नमोस्तु यमुने सदा, तव चारित्रमत्यद्युतम् ।\nनाजतु यम यातनां, भवति ते पयः पानतः ॥ ११ ॥",
+        "gujarati": "નમોસ્તુ યમુને સદા, તવ ચારિત્રમત્યદ્યુતમ્ ।\nનાજાતુ યમ યાતનામ્, ભવતિ તેપયઃ પાણતઃ ॥ ૧૧ ॥",
+        "english": "Namostu Yamune sada, tava charitra matyad bhutam.\nNa jatu yam yaatana, bhavati te payah panatah. (11)"
+      },
+      "translation": {
+        "english": "Salutations always to Yamunā; your conduct is supremely radiant. Where your water is drunk, no suffering ever arises."
+      }
+    },
+    {
+      "lyrics": {
+        "sanskrit": "यम्यपि भगिनी सुतान्, कथयन्ति हिंति दुष्टानपि ।\nप्रियो भवति सेवनत्, तव हरेर्यथा गोपिकाः ॥ १२ ॥",
+        "gujarati": "યમ્યપિ ભગિની સુતાન્, કહયન્તિ હિન્થી દુષ્ટાનપિ ।\nપ્રિયો ભવતિ સેવનત્, તવ હરેર્યથા ગોપિકાઃ ॥ ૧૨ ॥",
+        "english": "Yam api bhagini sutan, kathayanti hanti dustan api.\nPriyo bhavati sevanat, tava Hareryatha Gopikah. (12)"
+      },
+      "translation": {
+        "english": "Even Yamunā's own sisterly streams tell of love; she destroys even the wicked; serving you becomes dear, like the gopis serving Hari."
+      }
+    },
+    {
+      "lyrics": {
+        "sanskrit": "ममस्तु तव सन्निधौ, तनुनावत्वा मे त्वया ।\nन दुर्लभा तमा रति, मुरारिपौ मुकुंदप्रिये ॥ १३ ॥",
+        "gujarati": "મમસ્તુ તવ સન્નિધૌ, તનુનમાંવત્વા મે ત્યા ।\nન દુરલભા તમા રતિ, મુરારિપૌ મુકુન્દપ્રિયે ॥ ૧૩ ॥",
+        "english": "Mamastu tava sannidhau, tanunavatva me tvayaa.\nNa durlabha tama rati, Murari pau Mukunda priye. (13)"
+      },
+      "translation": {
+        "english": "May I be in your presence; by your grace let me be embodied in you; such devotion to Murari is not hard to attain, O beloved of Mukunda."
+      }
+    },
+    {
+      "lyrics": {
+        "sanskrit": "अतोस्तु तव ललाना, सुरधुनी परम् संगमे स्म ।\nतवैव भुवि कीर्तिता, न तु कदापि पुष्टिस्त्थितिः ॥ १४ ॥",
+        "gujarati": "અતોસ્તુ તવ લલાણા, સુરધુની પરમ સંગમે સ્ ।\nતવૈવ ભુવિ કીર્તિતા, ન તુ કદાવિ પુષ્ટિસ્ત્થિતિ ॥ ૧૪ ॥",
+        "english": "Atostu tava lalanaa, sur dhune param sangame sma.\nTavaiva bhuvi kirtita, na tu kadapi pushti sthiti. (14)"
+      },
+      "translation": {
+        "english": "May your beloved ones be pleased; at the supreme meeting of divine singers; your fame on earth will remain—never shall worldly prosperity endure alone."
+      }
+    },
+    {
+      "lyrics": {
+        "sanskrit": "स्तुतिं तव करोति कश्चित्, कमलजसपत्नी प्रिये ।\nहरीर्दानुसेवा यतः, भवति सायुज्य मोक्षतः ॥ १५ ॥",
+        "gujarati": "સ્તુતિં તવ કઁરોતિ કશ્ચિત્, કમલજસપત્ની પ્રિયે ।\nહરીર્દાનુસેવા યતઃ, ભવતિ સાયુજ્ય મોક્ષતઃ ॥ ૧૫ ॥",
+        "english": "Stutim tava karoti kashchit, kamalaja sapatnee priye.\nHarer danu seva yat, bhavati saayujya mokshatah. (15)"
+      },
+      "translation": {
+        "english": "Whoever praises you, O lotus-wife beloved; by serving Hari's gift one attains union (sa-yujya) and liberation."
+      }
+    },
+    {
+      "lyrics": {
+        "sanskrit": "इयम् तव कथाधिकं सकलगोपीका संगरः ।\nस्मर श्रम जलानुभिः, सकलगात्रजयि: संगरम् ॥ १६ ॥",
+        "gujarati": "ઐયમ્ તવ કથાધિકં સક્લગોપિકા સંગરઃ ।\nસ્ મર શ્રમ જલાનુભિઃ, સકલગાત્રજયિઃ સંગરઃ ॥ ૧૬ ॥",
+        "english": "Iyam tava katha adhikam sakal gopika sangama.\nSmara shrama jala anubhi, sakal gatra jayi sangama. (16)"
+      },
+      "translation": {
+        "english": "This tale of you, more than all, is the gathering of gopis; remembering (you) with labor and tears, the whole body rejoices in the meeting."
+      }
+    },
+    {
+      "lyrics": {
+        "sanskrit": "तवाष्टकमिदं मुदं, पठति सोत्सुते सदाः ।\nसमस्तदुरितक्षयो, भवति वै मुकुन्दे रथिः ॥ १७ ॥",
+        "gujarati": "તવાષ્ટકમિડં મુદં, પાઠતિ સોત્સુતે સદા ।\nસમસ્ત દુર્ગિતક્ષણો, ભવતિ વૈ મુકુન્દેરથિઃ ॥ ૧૭ ॥",
+        "english": "Tavaashtakamidam mudam, pathati sotsute sada.\nSamasta duritakshayo, bhavati vai Mukunde rathih. (17)"
+      },
+      "translation": {
+        "english": "Whoever joyfully recites this octet of yours always — all sins are destroyed; indeed they attain a chariot to Mukunda."
+      }
+    },
+    {
+      "lyrics": {
+        "sanskrit": "तया सकलसिद्धयः, मुररिपुच संतुष्यति ।\nस्वभावविजयो भवेत्, वदति वल्लभश्रीहरे ॥ १८ ॥",
+        "gujarati": "તયા સકળસિદ્ધયાઃ, મુરારિપુચ સંતુષ્યતિ ।\nસ્વભાવવિજયો ભવેત્, વદતિ વલ્લભશ્રીહરે ॥ ૧૮ ॥",
+        "english": "Tayaa sakal siddhayah, muraripuch santushyati.\nSwabhava vijayo bhavet, vadati vallabha Shree Hare. (18)"
+      },
+      "translation": {
+        "english": "By her all perfections are attained, pleasing the enemies of Murari; innate victory arises — thus speaks beloved Shri Hari."
       }
     }
   ]
