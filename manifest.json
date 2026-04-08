@@ -1,0 +1,24 @@
+{
+  "name": "Pushti Pravah",
+  "short_name": "PushtiPravah",
+  "description": "A digital companion for daily Pustimarg kirtans and leelas.",
+  "id": "/",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbf9f1",
+  "theme_color": "#b0004a",
+  "icons": [
+    {
+      "src": "/images/icons/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

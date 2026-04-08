@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fbf9f1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>Pushti Pravah | Kirtans and Leelas that Nourish the Soul</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <!-- PWA Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Pushti Pravah">
+    <link rel="apple-touch-icon" href="images/icons/logo.svg">
+    <!-- Google Fonts: Noto Serif & Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Manrope:wght@400;600;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="app-container">
+    <div id="app">
+        <!-- Fabric Watermarks (Pichwai Motifs) -->
+        <div onclick="router.navigate('home')" class="pichwai-watermark watermark-top-right">
+            <img src="images/icons/temple.svg" alt="" class="icon-temple-huge opacity-10">
+        </div>
+        <div class="pichwai-watermark watermark-bottom-left">
+            <img src="images/icons/lotus.svg" alt="" class="icon-nature-huge opacity-10">
+        </div>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-container">
+                <div onclick="router.navigate('home')" id="logo-icon-container" class="logo-icon">
+                    <img src="images/icons/temple.svg" alt="Logo" class="icon-lg">
+                </div>
+                <button onclick="router.back()" class="user-btn back-btn-header display-none" id="back-nav-btn">
+                    <img src="images/icons/back.svg" alt="Back" class="icon-lg text-primary">
+                </button>
+            </div>
+            <div class="top-nav-title-container">
+                <h1 id="top-nav-title" class="logo-text top-nav-title"></h1>
+            </div>
+            <div class="header-actions">
+                <button onclick="router.navigate('settings')" class="user-btn">
+                    <img src="images/icons/settings.svg" alt="Settings" class="icon-md">
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main id="main-content" class="main-content">
+            <div class="flex-center h-full opacity-60">
+                <div class="text-center">
+                    <img src="images/icons/temple.svg" alt="Loading" class="icon-3xl animate-spin">
+                    <p class="nav-label mt-4">Invoking Sacred Manuscripts...</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Bottom Navigation - Floating Glass Pill -->
+        <nav class="bottom-nav">
+            <button onclick="router.navigate('home')" class="nav-btn" data-view="home">
+                <img src="images/icons/home.svg" alt="Home" class="icon-md">
+                <span class="nav-label">Home</span>
+            </button>
+            <button onclick="router.navigate('kirtans')" class="nav-btn" data-view="kirtans">
+                <img src="images/icons/kirtan.svg" alt="Kirtans" class="icon-md">
+                <span class="nav-label">Kirtans</span>
+            </button>
+            <button onclick="router.navigate('leelas')" class="nav-btn" data-view="leelas">
+                <img src="images/icons/story.svg" alt="leelas" class="icon-md">
+                <span class="nav-label">leelas</span>
+            </button>
+        </nav>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
