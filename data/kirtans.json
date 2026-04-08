@@ -1,19 +1,19 @@
 {
   "kirtans": [
     {
-      "id": "k1",
+      "id": "madhurastakam",
       "title": {
-        "hindi": "मंगलाचरण",
-        "gujarati": "મંગલાચરણ",
-        "english": "Mangalacharan"
+        "hindi": "मधुराष्टकम्",
+        "gujarati": "મધુરાષ્ટ્રકમ્",
+        "english": "Madhurastakam"
       },
-      "poet": "Traditional",
-      "samay": ["Mangala"],
-      "preview": "श्री कृष्ण शरणं मम |",
-      "youtubeId": "dQw4w9WgXcQ"
+      "poet": "Sri Vallabhacharya",
+      "samay": ["Mangala", "Shringar", "Raag Bhakti"],
+      "preview": "सततं मनसि हृदि श्रीकृष्णप्रीतम् |",
+      "youtubeId": "tBgNpc39FJk"
     },
     {
-      "id": "k2",
+      "id": "yamunastakam",
       "title": {
         "hindi": "यमुनाष्टकम्",
         "gujarati": "યમુનાષ્ટકમ્",
@@ -22,7 +22,7 @@
       "poet": "Vallabhacharya",
       "samay": ["Mangala", "Shringar"],
       "preview": "नमामि यमुनामहं सकलसिद्धिहेतुं मुदा |",
-      "youtubeId": "dQw4w9WgXcQ"
+      "youtubeId": "iJijXZbwfc8"
     }
   ]
 }
