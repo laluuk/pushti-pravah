@@ -78,8 +78,28 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Cache-first strategy
+// Stale-While-Revalidate for JSON, Cache-First for others
 self.addEventListener('fetch', (event) => {
+  const url = new URL(event.request.url);
+
+  if (url.pathname.endsWith('.json')) {
+    event.respondWith(
+      caches.open(CACHE_NAME).then((cache) => {
+        return cache.match(event.request).then((cachedResponse) => {
+          const fetchPromise = fetch(event.request).then((networkResponse) => {
+            cache.put(event.request, networkResponse.clone());
+            return networkResponse;
+          }).catch(() => {
+            // Ignore fetch errors if offline
+          });
+          return cachedResponse || fetchPromise;
+        });
+      })
+    );
+    return;
+  }
+
+  // Cache-first for other assets
   event.respondWith(
     caches.match(event.request).then((cached) => {
       if (cached) return cached;
