@@ -7,7 +7,7 @@
   --background: #fbf9f1;
   --surface: #fbf9f1;
   --on-surface: #1b1c17;
-  --on-surface-variant: #4a493f;
+  --on-surface-variant: #25230f;
   --surface-container-lowest: #ffffff;
   --surface-container-low: #f5f3e7;
   --surface-container: #efede1;
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 400px;
   padding: 0.75rem 1.5rem;
   padding-bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
-  position: fixed;
+  position: sticky;
   transform: translateX(-50%);
   width: 90%;
   z-index: 100;
@@ -1314,4 +1314,42 @@ h1, h2, h3, h4, h5, h6 {
   bottom: -0.75rem;
   box-shadow: -20px -20px 0 var(--accent);
   right: -0.75rem;
+}
+
+/* --- Animations & Skeleton Loaders --- */
+
+.fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skeleton-box {
+  background: linear-gradient(90deg, var(--surface-container-high) 25%, #e2e0d3 50%, var(--surface-container-high) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-sm);
+  color: transparent !important;
+}
+
+.skeleton-box * {
+  visibility: hidden;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
