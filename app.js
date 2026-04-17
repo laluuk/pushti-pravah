@@ -245,6 +245,11 @@ class Router {
 
         this.updateNav();
 
+        // Apply page transition
+        this.mainContent.classList.remove('fade-in');
+        void this.mainContent.offsetWidth; // trigger reflow
+        this.mainContent.classList.add('fade-in');
+
         if (view === 'home') {
             this.renderHome();
         }
@@ -263,13 +268,19 @@ class Router {
         }
         else if (view.startsWith('kirtan-')) {
             const id = view.replace('kirtan-', '');
+            this.renderKirtanSkeleton();
             const kirtan = await this.dataService.getKirtanById(id);
-            this.renderKirtanDetail(kirtan);
+            if (this.currentView === view) {
+                this.renderKirtanDetail(kirtan);
+            }
         }
         else if (view.startsWith('story-')) {
             const id = view.replace('story-', '');
+            this.renderStorySkeleton();
             const story = await this.dataService.getStoryById(id);
-            this.renderStoryDetail(story);
+            if (this.currentView === view) {
+                this.renderStoryDetail(story);
+            }
         }
     }
 
@@ -762,6 +773,37 @@ class Router {
 
                 <div class="text-center mb-12">
                     <button onclick="router.navigate('leelas')" class="btn-secondary">Explore More Granths</button>
+                </div>
+            </div>
+        `;
+    }
+
+    renderKirtanSkeleton() {
+        this.mainContent.innerHTML = `
+            <div class="detail-container scroll-view">
+                <div class="manuscript-scroll mt-12">
+                    <div class="kirtan-verses">
+                        ${[1, 2, 3].map(() => `
+                            <div class="verse-block text-center mb-16 relative">
+                                <div class="verse-number-display mb-4 skeleton-box" style="width: 40px; height: 40px; margin: 0 auto; border-radius: 50%;"></div>
+                                <div class="detail-lyrics mb-4 skeleton-box" style="height: 2.5rem; width: 80%; margin: 0 auto; max-width: 400px;"></div>
+                                <div class="detail-lyrics mb-4 skeleton-box" style="height: 2.5rem; width: 60%; margin: 0 auto; max-width: 300px;"></div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    renderStorySkeleton() {
+        this.mainContent.innerHTML = `
+            <div class="detail-container">
+                <div class="detail-header mb-8 skeleton-box" style="height: 3rem; width: 60%; margin: 0 auto; max-width: 300px;"></div>
+                <div class="tonal-card padding-lg mb-8">
+                    ${[1, 2, 3, 4, 5, 6].map(() => `
+                        <div class="mb-4 skeleton-box" style="height: 1.5rem; width: ${80 + Math.random() * 20}%;"></div>
+                    `).join('')}
                 </div>
             </div>
         `;
