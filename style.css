@@ -542,6 +542,7 @@ h6 {
   margin-bottom: 4rem;
   overflow-wrap: break-word;
   text-align: center;
+  white-space: pre-line;
 }
 
 @media (max-width: 640px) {
