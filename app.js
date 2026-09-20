@@ -1089,151 +1089,196 @@ class Router {
 
     renderKirtanDetail(kirtan) {
         if (!kirtan) return;
-
+    
         const showTranslation =
             this.settingsService.getShowTranslation();
-
+    
         const translationLang =
             this.settingsService.getTranslationLanguage();
-
+    
         const kirtanFromIndex =
             this.dataService.kirtans.find(
                 k => k.id === kirtan.id
             );
-
+    
         const poet =
             kirtanFromIndex?.poet || '';
-
+    
         const title =
             this.dataService.getLocalized(
                 kirtanFromIndex?.title
             );
-
+    
+        const samay =
+            Array.isArray(kirtanFromIndex?.samay)
+                ? kirtanFromIndex.samay.join(' • ')
+                : (kirtanFromIndex?.samay || 'Any Time');
+    
         this.mainContent.innerHTML = `
             <div class="detail-container scroll-view">
-
+    
                 <div class="pichwai-watermark detail-watermark opacity-5">
-
+    
                     <img
                         src="images/icons/lotus.svg"
                         alt=""
                         class="icon-huge"
                     >
-
+    
                 </div>
-
+    
+    
                 <div class="manuscript-scroll">
-
+    
+    
+                    <!-- KIRTAN HEADER -->
+    
+                    <div class="manuscript-header text-center mb-12">
+    
+                        <h2 class="text-primary font-size-3xl mb-6">
+                            ${title}
+                        </h2>
+    
+                        <div class="manuscript-title-badge mb-4">
+    
+                            <span class="nav-label text-secondary">
+                                ${samay}
+                            </span>
+    
+                            ${kirtan.raga ? `
+    
+                                <span class="nav-label text-secondary">
+                                    &bull; ${kirtan.raga}
+                                </span>
+    
+                            ` : ''}
+    
+                        </div>
+    
+                        ${poet ? `
+    
+                            <p class="manuscript-poet text-italic opacity-60 font-size-lg">
+                                — ${poet} —
+                            </p>
+    
+                        ` : ''}
+    
+                    </div>
+    
+    
+                    <!-- VERSES -->
+    
                     <div class="kirtan-verses">
-
+    
                         ${kirtan.verses.map((v, index) => `
-
+    
                             <div class="verse-block text-center mb-16 relative">
-
+    
                                 <div class="verse-number-display mb-4">
-
+    
                                     <span class="font-serif opacity-20 font-size-3xl">
                                         ${index + 1}
                                     </span>
-
+    
                                 </div>
-
-                                <!-- Lyrics use --lyrics-font-size -->
+    
+    
                                 <div class="detail-lyrics mb-4 text-primary font-weight-600">
-                                    ${this.dataService.getLocalized(v.lyrics)}
+    
+                                    ${this.dataService.getLocalized(
+                                        v.lyrics
+                                    )}
+    
                                 </div>
-
+    
+    
                                 ${showTranslation ? `
-
+    
                                     <div class="detail-translation text-secondary font-size-lg opacity-80 max-w-md mx-auto">
+    
                                         ${this.dataService.getLocalized(
                                             v.translation,
                                             translationLang
                                         )}
+    
                                     </div>
-
+    
                                 ` : ''}
-
+    
                             </div>
-
+    
                         `).join('')}
-
+    
+    
+                        <!-- CLOSING TEXT -->
+    
+                        ${kirtan.closing ? `
+    
+                            <div class="kirtan-closing">
+    
+                                <div class="divider-accent"></div>
+    
+                                <p>
+                                    ${kirtan.closing}
+                                </p>
+    
+                            </div>
+    
+                        ` : ''}
+    
                     </div>
-
+    
                 </div>
-
+    
+    
+                <!-- FOOTER DECORATION -->
+    
                 <div class="lotus-divider mb-12">
-
+    
                     <div class="logo-icon footer-motif-icon">
-
+    
                         <img
                             src="images/icons/temple.svg"
                             alt="Temple"
                             class="icon-lg text-primary"
                         >
-
+    
                     </div>
-
+    
                 </div>
-
-                <div class="manuscript-header text-center mb-12">
-
-                    <div class="manuscript-title-badge mb-4">
-
-                        <span class="nav-label text-secondary">
-                            ${Array.isArray(kirtanFromIndex?.samay)
-                                ? kirtanFromIndex.samay.join(' • ')
-                                : (kirtanFromIndex?.samay || 'Any Time')}
-                        </span>
-
-                    </div>
-
-                    <p class="manuscript-poet text-italic opacity-60 font-size-lg">
-                        — ${poet} —
-                    </p>
-
-                </div>
-
-                <div class="lotus-divider mb-12">
-
-                    <div class="logo-icon footer-motif-icon">
-
-                        <img
-                            src="images/icons/temple.svg"
-                            alt="Temple"
-                            class="icon-lg text-primary"
-                        >
-
-                    </div>
-
-                </div>
-
+    
+    
+                <!-- YOUTUBE -->
+    
                 ${kirtanFromIndex?.youtubeId ? `
-
+    
                     <div class="youtube-container">
-
+    
                         <iframe
                             src="https://www.youtube.com/embed/${kirtanFromIndex.youtubeId}"
                             title="YouTube video player"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen>
                         </iframe>
-
+    
                     </div>
-
+    
                 ` : ''}
-
+    
+    
+                <!-- BACK BUTTON -->
+    
                 <div class="text-center mb-12">
-
+    
                     <button
                         onclick="router.navigate('kirtans')"
                         class="btn-secondary"
                     >
                         Back to Library
                     </button>
-
+    
                 </div>
-
+    
             </div>
         `;
     }
