@@ -5,7 +5,7 @@
   "verses": [
     {
       "lyrics": {
-        "gujarati": "નમામિ યમુનામહં સકલ સિદ્ધિ હેતું મુદા\nમુરારિ પદ પંકજ સ્ફુરદમન્દ રેણુત્કટામ |\nતટસ્થ નવ કાનન પ્રકટમોદ પુષ્પામ્બુના\nસુરાસુરસુપૂજિત સ્મરપિતુઃ શ્રિયં બિભ્રતીમ ||૧||",
+        "gujarati": "નમામિ યમુનામહં સકલ સિદ્ધિ હેતું મુદા\nમુરારિ પદ પંકજ સ્ફ઼્ઉરદમન્દ રેણુત્કટામ |\nતટસ્થ નવ કાનન પ્રકટમોદ પુષ્પામ્બુના\nસુરાસુરસુપૂજિત સ્મરપિતુઃ શ્રિયં બિભ્રતીમ ||૧||",
         "english": "Namami Yamuna Maham, Sakal Siddhi Hetum Muda.\nMurari-pad pankajam, Sphurad mand renutkatam. (1)"
       },
       "translation": {
@@ -23,7 +23,7 @@
     },
     {
       "lyrics": {
-        "gujarati": "ભુવં ભુવનપાવનીમધિગતામનેકસ્વનૈઃ\nપ્રિયાભિરિવ સેવિતાં શુકમયૂરહંસાદિભિઃ |\nતરંગભુજકંકણ પ્રકટમુક્તિકાવાકુકા-\nનિતંબતટસુન્દરીં નમત કૃષ્ણ્તુર્યપ્રિયામ ||૩||",
+        "gujarati": "ભુવં ભુવનપાવનીમધિગતામનેકસ્વનૈઃ\nપ્રિયાભિરિવ સેવિતાં શુકમયૂરહંસાદિભિઃ |\nતરંગભુજકંકણ પ્રકટમુક્તિકાવાકુકા-\nનિતન્બતટસુન્દરીં નમત કૃષ્ણ્તુર્યપ્રિયામ ||૩||",
         "english": "Kalind giri mastake, patada mand poorojjwala.\nVilas gaman ollasat, prakat gandh shailon nata. (3)"
       },
       "translation": {
@@ -84,5 +84,6 @@
         "english": "Whoever joyfully recites this octet of yours always — all sins are destroyed; indeed they attain a chariot to Mukunda."
       }
     }
-  ]
+  ],
+  "closing": "|| ઇતિ શ્રી વલ્લભાચાર્ય વિરચિતં યમુનાષ્ટકં સમ્પૂર્ણમ ||"
 }
