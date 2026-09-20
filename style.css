@@ -876,6 +876,34 @@ h6 {
   transition: var(--transition);
 }
 
+/* =========================================
+   KIRTAN CLOSING / COMPLETION TEXT
+   ========================================= */
+
+.kirtan-closing {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.kirtan-closing .divider-accent {
+    width: 80px;
+    height: 1px;
+    margin: 0 auto 1.5rem auto;
+    background: currentColor;
+    opacity: 0.2;
+}
+
+.kirtan-closing p {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
 @media (max-width: 640px) {
   .kirtan-item {
     align-items: center;
