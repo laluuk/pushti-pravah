@@ -1172,7 +1172,7 @@ class Router {
     
                         ${kirtan.verses.map((v, index) => `
     
-                            <div class="verse-block text-center mb-16 relative">
+                            <div class="verse-block text-center mb-6 relative">
     
                                 <div class="verse-number-display mb-4">
     
