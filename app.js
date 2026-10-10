@@ -1174,7 +1174,7 @@ class Router {
     
                             <div class="verse-block text-center mb-6 relative">
     
-                                <div class="verse-number-display mb-4">
+                                <div class="verse-number-display mb-2">
     
                                     <span class="font-serif opacity-20 font-size-3xl">
                                         ${index + 1}
@@ -1183,7 +1183,7 @@ class Router {
                                 </div>
     
     
-                                <div class="detail-lyrics mb-4 text-primary font-weight-600">
+                                <div class="detail-lyrics mb-2 text-primary font-weight-600">
     
                                     ${this.dataService.getLocalized(
                                         v.lyrics
